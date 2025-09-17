@@ -1,0 +1,62 @@
+
+@import url('./variaveis.css');
+
+.navigator{
+    border-radius: 80px;
+    border: solid black 1px;
+    width: 40vw;
+    display: flex;
+    position: fixed;
+    top: 8rem;
+    left: calc(50% - 20vw);
+    justify-content: space-around;
+    opacity: 1;
+    z-index: 10;
+}
+
+.nav-link{
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    margin: .2rem 0;
+}
+
+.nav-link:hover{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.link_1{
+    padding: 1rem 4.5rem 1rem 6rem;
+    border-radius: 80px 0 0 80px;
+}
+
+.link_2{
+    padding: 1rem 5rem;
+}
+
+.link_3{
+    padding: 1rem 6rem 1rem 4.5rem;
+    border-radius: 0 80px 80px 0;
+}
+
+.link_1,
+.link_2,
+.link_3{
+    transition: all ease-in-out .3s;
+}
+
+.link_1:hover{
+    background-color: rgb(79, 153, 255);
+}
+
+.link_2:hover{
+    background-color: rgb(255, 43, 43);
+}
+
+.link_3:hover{
+    background-color: rgb(35, 184, 35);
+} 

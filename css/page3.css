@@ -1,0 +1,21 @@
+
+@import url('./variaveis.css');
+
+body {
+    margin: 0;
+}
+
+main{
+    background: linear-gradient(to right bottom, rgb(234, 253, 234), rgb(233, 253, 233), rgb(219, 247, 219), rgb(194, 250, 194), rgb(35, 184, 35));
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    animation: fadeIn .8s ease forwards;
+    z-index: 1;
+}
+
+
+.navigator .active {
+    background-color: var(--primary-timeline-3);
+    color: white;
+}

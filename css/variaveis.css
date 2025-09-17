@@ -1,0 +1,15 @@
+
+/* ----------------------------- Variáveis ----------------------------- */
+
+:root{
+    --primary-timeline-1: rgb(79, 153, 255);
+    --primary-timeline-2: rgb(255, 43, 43);
+    --primary-timeline-3: rgb(35, 184, 35);
+}
+
+
+/* ----------------------------- Animações ----------------------------- */
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
