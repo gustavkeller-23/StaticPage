@@ -1,0 +1,48 @@
+
+.card {
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  top: 25px; /*deixa a imagem sobrepondo o título */
+  border: solid black .2rem;
+}
+
+.content-card{
+  width: 100%;
+  padding: 2rem 0 .3rem 0;
+  text-align: center;
+  border-radius: 16px;
+  background: #f5f5f5;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.content-card h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.content-card p {
+  opacity: 0;
+  max-height: 0;
+  color: black;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  margin-top: 10px;
+}
+
+/* quando passar a mão no título, revela o texto */
+.content-card h2:hover + p {
+  opacity: 1;
+  max-height: 300px;
+}

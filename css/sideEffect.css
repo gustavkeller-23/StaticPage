@@ -1,0 +1,20 @@
+
+.lateral-direita{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.lateral-esquerda{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    pointer-events: none;
+    height: 100vh;
+    z-index: 5;
+}

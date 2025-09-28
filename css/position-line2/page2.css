@@ -7,14 +7,18 @@ body {
 
 main{
     background: linear-gradient(to right bottom, rgb(248, 244, 244), rgb(252, 233, 233), rgb(250, 211, 211), rgb(250, 196, 196), rgb(255, 43, 43));
-    width: 100vw;
+    min-width: 100vw;
     height: 100vh;
     opacity: 0;
     animation: fadeIn .8s ease forwards;
     z-index: 1;
 }
 
+/* Navegador [aba selecionada] */
 .navigator .active {
     background-color: var(--primary-timeline-2);
     color: white;
 }
+
+.lateral-direita{background: linear-gradient(to right, #ffffff00, rgba(243, 111, 111, 0.3), rgb(255, 43, 43, 0.843));}
+.lateral-esquerda{background: linear-gradient(to left, #ffe2e200, #ffe2e269, #ffe2e2ea);}
