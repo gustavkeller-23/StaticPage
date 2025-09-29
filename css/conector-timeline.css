@@ -1,0 +1,32 @@
+@import url('./variaveis.css');
+
+/* Conector vertical que liga cada card à linha central */
+.timeline-card::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: var(--connector-width);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
+    z-index: 2;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Conector para cards superiores (ímpares) */
+.timeline-card:nth-child(odd)::before {
+    top: 100%;
+    height: var(--timeline-offset);
+}
+
+/* Conector para cards inferiores (pares) */
+.timeline-card:nth-child(even)::before {
+    bottom: 100%;
+    height: var(--timeline-offset);
+}
+
+/* Efeito no conector ao hover */
+.timeline-card:hover::before {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6));
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}

@@ -1,12 +1,11 @@
 @import url('../variaveis.css');
 
 body {
-    background: linear-gradient(to right, rgb(255, 43, 43), rgb(255, 150, 150));
+   background: linear-gradient(to right, rgb(79, 153, 255), rgb(180, 210, 255));
    /* Gradiente animado no fundo */
 	background-size: 400% 400%;
 	animation: gradientShift 15s ease infinite;
 }
 
-
 /* Define a largura da time line */
-.timeline-container::before { width: 5000px; }
+.timeline-container::before { width: 4350px; }

@@ -1,0 +1,15 @@
+@import url('./variaveis.css');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-attachment: fixed;
+	min-height: 100vh;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
