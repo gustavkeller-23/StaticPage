@@ -106,7 +106,7 @@
     transform: translateY(var(--timeline-offset));
 }
 
-/* Expansão do card ao hover - apenas CSS */
+/* Expansão do card ao hover */
 .timeline-card:hover {
     height: var(--card-expanded-height);
     z-index: 10;
